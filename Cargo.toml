@@ -1,0 +1,10 @@
+[workspace]
+members = [ "e2e/*" ]
+
+[package]
+name = "polite"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+traitable = { git = "https://github.com/MDM23/traitable.git", branch = "main" }
